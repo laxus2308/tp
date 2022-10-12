@@ -5,7 +5,7 @@ import jarvis.model.Student;
 import jarvis.model.StudentName;
 
 /**
- * A utility class to help with building Person objects.
+ * A utility class to help with building Student objects.
  */
 public class StudentBuilder {
 
@@ -14,27 +14,26 @@ public class StudentBuilder {
     private StudentName studentName;
 
     /**
-     * Creates a {@code PersonBuilder} with the default details.
+     * Creates a {@code StudentBuilder} with the default details.
      */
     public StudentBuilder() {
         studentName = new StudentName(DEFAULT_NAME);
     }
 
     /**
-     * Initializes the PersonBuilder with the data of {@code personToCopy}.
+     * Initializes the StudentBuilder with the data of {@code studentToCopy}.
      */
     public StudentBuilder(Student studentToCopy) {
         studentName = studentToCopy.getName();
     }
 
     /**
-     * Sets the {@code Name} of the {@code Person} that we are building.
+     * Sets the {@code Name} of the {@code Student} that we are building.
      */
     public StudentBuilder withName(String name) {
         this.studentName = new StudentName(name);
         return this;
     }
-
 
     public Student build() {
         return new Student(studentName, MasteryCheckStatus.getDefault());
