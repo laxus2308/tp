@@ -1,7 +1,7 @@
 package jarvis.logic.commands;
 
 import static jarvis.commons.core.Messages.MESSAGE_STUDENTS_LISTED_OVERVIEW;
-import static jarvis.logic.commands.CommandTestUtil.assertCommandSuccess;
+import static jarvis.logic.commands.StudentCommandTestUtil.assertCommandSuccess;
 import static jarvis.testutil.TypicalStudents.CARL;
 import static jarvis.testutil.TypicalStudents.ELLE;
 import static jarvis.testutil.TypicalStudents.FIONA;

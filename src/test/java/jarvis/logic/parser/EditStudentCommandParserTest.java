@@ -1,9 +1,9 @@
 package jarvis.logic.parser;
 
 import static jarvis.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
-import static jarvis.logic.commands.CommandTestUtil.INVALID_NAME_DESC;
-import static jarvis.logic.commands.CommandTestUtil.NAME_DESC_AMY;
-import static jarvis.logic.commands.CommandTestUtil.VALID_NAME_AMY;
+import static jarvis.logic.commands.StudentCommandTestUtil.INVALID_NAME_DESC;
+import static jarvis.logic.commands.StudentCommandTestUtil.NAME_DESC_AMY;
+import static jarvis.logic.commands.StudentCommandTestUtil.VALID_NAME_AMY;
 import static jarvis.logic.parser.CommandParserTestUtil.assertParseFailure;
 import static jarvis.logic.parser.CommandParserTestUtil.assertParseSuccess;
 import static jarvis.testutil.TypicalIndexes.INDEX_SECOND_PERSON;

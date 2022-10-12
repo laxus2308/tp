@@ -18,16 +18,15 @@ import jarvis.model.StudentBook;
 import jarvis.testutil.EditStudentDescriptorBuilder;
 
 /**
- * Contains helper methods for testing commands.
+ * Contains helper methods for testing student commands.
  */
-public class CommandTestUtil {
+public class StudentCommandTestUtil {
 
     public static final String VALID_NAME_AMY = "Amy Bee";
     public static final String VALID_NAME_BOB = "Bob Choo";
 
     public static final String NAME_DESC_AMY = " " + PREFIX_NAME + VALID_NAME_AMY;
     public static final String NAME_DESC_BOB = " " + PREFIX_NAME + VALID_NAME_BOB;
-
 
     public static final String INVALID_NAME_DESC = " " + PREFIX_NAME + "James&"; // '&' not allowed in names
 

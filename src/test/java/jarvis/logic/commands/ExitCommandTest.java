@@ -1,6 +1,6 @@
 package jarvis.logic.commands;
 
-import static jarvis.logic.commands.CommandTestUtil.assertCommandSuccess;
+import static jarvis.logic.commands.StudentCommandTestUtil.assertCommandSuccess;
 import static jarvis.logic.commands.ExitCommand.MESSAGE_EXIT_ACKNOWLEDGEMENT;
 
 import org.junit.jupiter.api.Test;

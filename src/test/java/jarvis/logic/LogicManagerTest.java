@@ -2,7 +2,7 @@ package jarvis.logic;
 
 import static jarvis.commons.core.Messages.MESSAGE_INVALID_STUDENT_DISPLAYED_INDEX;
 import static jarvis.commons.core.Messages.MESSAGE_UNKNOWN_COMMAND;
-import static jarvis.logic.commands.CommandTestUtil.NAME_DESC_AMY;
+import static jarvis.logic.commands.StudentCommandTestUtil.NAME_DESC_AMY;
 import static jarvis.testutil.Assert.assertThrows;
 import static jarvis.testutil.TypicalStudents.AMY;
 import static org.junit.jupiter.api.Assertions.assertEquals;

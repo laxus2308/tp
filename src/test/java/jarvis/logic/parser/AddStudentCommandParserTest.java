@@ -1,12 +1,12 @@
 package jarvis.logic.parser;
 
 import static jarvis.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
-import static jarvis.logic.commands.CommandTestUtil.INVALID_NAME_DESC;
-import static jarvis.logic.commands.CommandTestUtil.NAME_DESC_AMY;
-import static jarvis.logic.commands.CommandTestUtil.NAME_DESC_BOB;
-import static jarvis.logic.commands.CommandTestUtil.PREAMBLE_NON_EMPTY;
-import static jarvis.logic.commands.CommandTestUtil.PREAMBLE_WHITESPACE;
-import static jarvis.logic.commands.CommandTestUtil.VALID_NAME_BOB;
+import static jarvis.logic.commands.StudentCommandTestUtil.INVALID_NAME_DESC;
+import static jarvis.logic.commands.StudentCommandTestUtil.NAME_DESC_AMY;
+import static jarvis.logic.commands.StudentCommandTestUtil.NAME_DESC_BOB;
+import static jarvis.logic.commands.StudentCommandTestUtil.PREAMBLE_NON_EMPTY;
+import static jarvis.logic.commands.StudentCommandTestUtil.PREAMBLE_WHITESPACE;
+import static jarvis.logic.commands.StudentCommandTestUtil.VALID_NAME_BOB;
 import static jarvis.logic.parser.CommandParserTestUtil.assertParseFailure;
 import static jarvis.logic.parser.CommandParserTestUtil.assertParseSuccess;
 import static jarvis.testutil.TypicalStudents.BOB;

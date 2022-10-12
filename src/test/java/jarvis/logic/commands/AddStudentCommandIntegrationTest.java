@@ -1,7 +1,7 @@
 package jarvis.logic.commands;
 
-import static jarvis.logic.commands.CommandTestUtil.assertCommandFailure;
-import static jarvis.logic.commands.CommandTestUtil.assertCommandSuccess;
+import static jarvis.logic.commands.StudentCommandTestUtil.assertCommandFailure;
+import static jarvis.logic.commands.StudentCommandTestUtil.assertCommandSuccess;
 import static jarvis.testutil.TypicalStudents.getTypicalStudentBook;
 
 import org.junit.jupiter.api.BeforeEach;

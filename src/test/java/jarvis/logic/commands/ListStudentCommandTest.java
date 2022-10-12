@@ -1,7 +1,7 @@
 package jarvis.logic.commands;
 
-import static jarvis.logic.commands.CommandTestUtil.assertCommandSuccess;
-import static jarvis.logic.commands.CommandTestUtil.showPersonAtIndex;
+import static jarvis.logic.commands.StudentCommandTestUtil.assertCommandSuccess;
+import static jarvis.logic.commands.StudentCommandTestUtil.showPersonAtIndex;
 import static jarvis.testutil.TypicalIndexes.INDEX_FIRST_PERSON;
 import static jarvis.testutil.TypicalStudents.getTypicalStudentBook;
 

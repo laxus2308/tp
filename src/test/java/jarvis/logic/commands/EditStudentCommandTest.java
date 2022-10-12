@@ -1,11 +1,11 @@
 package jarvis.logic.commands;
 
-import static jarvis.logic.commands.CommandTestUtil.DESC_AMY;
-import static jarvis.logic.commands.CommandTestUtil.DESC_BOB;
-import static jarvis.logic.commands.CommandTestUtil.VALID_NAME_BOB;
-import static jarvis.logic.commands.CommandTestUtil.assertCommandFailure;
-import static jarvis.logic.commands.CommandTestUtil.assertCommandSuccess;
-import static jarvis.logic.commands.CommandTestUtil.showPersonAtIndex;
+import static jarvis.logic.commands.StudentCommandTestUtil.DESC_AMY;
+import static jarvis.logic.commands.StudentCommandTestUtil.DESC_BOB;
+import static jarvis.logic.commands.StudentCommandTestUtil.VALID_NAME_BOB;
+import static jarvis.logic.commands.StudentCommandTestUtil.assertCommandFailure;
+import static jarvis.logic.commands.StudentCommandTestUtil.assertCommandSuccess;
+import static jarvis.logic.commands.StudentCommandTestUtil.showPersonAtIndex;
 import static jarvis.testutil.TypicalIndexes.INDEX_FIRST_PERSON;
 import static jarvis.testutil.TypicalIndexes.INDEX_SECOND_PERSON;
 import static jarvis.testutil.TypicalStudents.getTypicalStudentBook;

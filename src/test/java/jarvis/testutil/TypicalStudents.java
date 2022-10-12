@@ -1,7 +1,7 @@
 package jarvis.testutil;
 
-import static jarvis.logic.commands.CommandTestUtil.VALID_NAME_AMY;
-import static jarvis.logic.commands.CommandTestUtil.VALID_NAME_BOB;
+import static jarvis.logic.commands.StudentCommandTestUtil.VALID_NAME_AMY;
+import static jarvis.logic.commands.StudentCommandTestUtil.VALID_NAME_BOB;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,8 +1,8 @@
 package jarvis.logic.commands;
 
-import static jarvis.logic.commands.CommandTestUtil.DESC_AMY;
-import static jarvis.logic.commands.CommandTestUtil.DESC_BOB;
-import static jarvis.logic.commands.CommandTestUtil.VALID_NAME_BOB;
+import static jarvis.logic.commands.StudentCommandTestUtil.DESC_AMY;
+import static jarvis.logic.commands.StudentCommandTestUtil.DESC_BOB;
+import static jarvis.logic.commands.StudentCommandTestUtil.VALID_NAME_BOB;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
