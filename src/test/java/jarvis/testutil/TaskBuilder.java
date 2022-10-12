@@ -9,6 +9,7 @@ import jarvis.model.TaskDesc;
 public class TaskBuilder {
 
     public static final String DEFAULT_TASK_DESC = "Mark quest 1";
+    public static final LocalDate DEFAULT_TASK_DEADLINE = null;
 
     private TaskDesc taskDesc;
     private TaskDeadline taskDeadline;
@@ -18,6 +19,7 @@ public class TaskBuilder {
      */
     public TaskBuilder() {
         taskDesc = new TaskDesc(DEFAULT_TASK_DESC);
+        taskDeadline = new TaskDeadline(DEFAULT_TASK_DEADLINE);
     }
 
     /**
