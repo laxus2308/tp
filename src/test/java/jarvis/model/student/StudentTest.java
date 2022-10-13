@@ -14,7 +14,7 @@ import jarvis.testutil.StudentBuilder;
 public class StudentTest {
 
     @Test
-    public void isSamePerson() {
+    public void isSameStudent() {
         // same object -> returns true
         assertTrue(ALICE.isSameStudent(ALICE));
 
