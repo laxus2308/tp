@@ -22,16 +22,16 @@ public class TaskDescTest {
     }
 
     @Test
-    public void isValidDesc() {
+    public void isValidTaskDesc() {
         // null desc
-        assertThrows(NullPointerException.class, () -> TaskDesc.isValidDesc(null));
+        assertThrows(NullPointerException.class, () -> TaskDesc.isValidTaskDesc(null));
 
         // invalid description
-        assertFalse(TaskDesc.isValidDesc("")); // empty string
-        assertFalse(TaskDesc.isValidDesc(" ")); // spaces only
+        assertFalse(TaskDesc.isValidTaskDesc("")); // empty string
+        assertFalse(TaskDesc.isValidTaskDesc(" ")); // spaces only
 
         // valid description
-        assertTrue(TaskDesc.isValidDesc("Prepare slides for studio 1")); // alphanumeric characters with capital letter
-        assertTrue(TaskDesc.isValidDesc("Grade quest 3!!!")); // symbols allowed
+        assertTrue(TaskDesc.isValidTaskDesc("Prepare slides for studio 1")); // alphanumeric characters with capital letter
+        assertTrue(TaskDesc.isValidTaskDesc("Grade quest 3!!!")); // symbols allowed
     }
 }
