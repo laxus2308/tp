@@ -31,7 +31,7 @@ public class TaskDescTest {
         assertFalse(TaskDesc.isValidTaskDesc(" ")); // spaces only
 
         // valid description
-        assertTrue(TaskDesc.isValidTaskDesc("Prepare slides for studio 1")); // alphanumeric characters with capital letter
+        assertTrue(TaskDesc.isValidTaskDesc("Prepare slides for studio 1")); // alphanumeric characters
         assertTrue(TaskDesc.isValidTaskDesc("Grade quest 3!!!")); // symbols allowed
     }
 }

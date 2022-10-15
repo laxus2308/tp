@@ -6,10 +6,13 @@ import jarvis.model.Task;
 import jarvis.model.TaskDeadline;
 import jarvis.model.TaskDesc;
 
+/**
+ * A utility class to help with building Task objects.
+ */
 public class TaskBuilder {
 
     public static final String DEFAULT_TASK_DESC = "Mark quest 1";
-    public static final LocalDate DEFAULT_TASK_DEADLINE = null;
+    public static final LocalDate DEFAULT_TASK_DEADLINE = LocalDate.parse("2022-12-12");
 
     private TaskDesc taskDesc;
     private TaskDeadline taskDeadline;
