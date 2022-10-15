@@ -12,10 +12,10 @@ import jarvis.model.TaskBook;
  */
 public class TypicalTasks {
 
-    public static final Task MISSION1 = new TaskBuilder().withDesc("Mark mission 1").build();
-    public static final Task MISSION2 = new TaskBuilder().withDesc("Mark mission 2").build();
-    public static final Task QUEST1 = new TaskBuilder().withDesc("Mark quest 1").build();
-    public static final Task QUEST2 = new TaskBuilder().withDesc("Mark quest 2").build();
+    public static final Task MISSION_1 = new TaskBuilder().withDesc("Mark mission 1").build();
+    public static final Task STUDIO = new TaskBuilder().withDesc("Prepare studio 1 slides").build();
+    public static final Task QUEST_1 = new TaskBuilder().withDesc("Check quest 1").build();
+    public static final Task MASTERY_CHECK = new TaskBuilder().withDesc("Conduct mastery check").build();
 
     private TypicalTasks() {} // prevents instantiation
 
@@ -31,7 +31,7 @@ public class TypicalTasks {
     }
 
     public static List<Task> getTypicalTasks() {
-        return new ArrayList<>(Arrays.asList(MISSION1, MISSION2, QUEST1, QUEST2));
+        return new ArrayList<>(Arrays.asList(MISSION_1, STUDIO, QUEST_1, MASTERY_CHECK));
     }
 
 }

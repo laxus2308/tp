@@ -1,7 +1,7 @@
 package jarvis.logic.commands;
 
-import static jarvis.logic.commands.StudentCommandTestUtil.assertCommandSuccess;
 import static jarvis.logic.commands.HelpCommand.SHOWING_HELP_MESSAGE;
+import static jarvis.logic.commands.StudentCommandTestUtil.assertCommandSuccess;
 
 import org.junit.jupiter.api.Test;
 

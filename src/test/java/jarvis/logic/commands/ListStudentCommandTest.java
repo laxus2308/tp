@@ -2,7 +2,7 @@ package jarvis.logic.commands;
 
 import static jarvis.logic.commands.StudentCommandTestUtil.assertCommandSuccess;
 import static jarvis.logic.commands.StudentCommandTestUtil.showPersonAtIndex;
-import static jarvis.testutil.TypicalIndexes.INDEX_FIRST_PERSON;
+import static jarvis.testutil.TypicalIndexes.INDEX_FIRST_OBJECT;
 import static jarvis.testutil.TypicalStudents.getTypicalStudentBook;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -33,7 +33,7 @@ public class ListStudentCommandTest {
 
     @Test
     public void execute_listIsFiltered_showsEverything() {
-        showPersonAtIndex(model, INDEX_FIRST_PERSON);
+        showPersonAtIndex(model, INDEX_FIRST_OBJECT);
         assertCommandSuccess(new ListStudentCommand(), model, ListStudentCommand.MESSAGE_SUCCESS, expectedModel);
     }
 }
