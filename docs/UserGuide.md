@@ -265,7 +265,7 @@ This section contains commands for managing students.
 
 ### Adding a student : `addstudent`
 
-Adds a student with name and matric number to your student list.
+Adds a student with the given name and matric number to your student list.
 
 Format: `addstudent s/NAME m/MATRIC_NUM`
 
@@ -376,7 +376,7 @@ This section contains commands for managing tasks.
 
 ### Adding a task : `addtask`
 
-Adds a task with description and optional deadline to your task list.
+Adds a task with the given description and optional deadline to your task list.
 
 Format: `addtask t/TASK_DESC [d/DEADLINE]`
 
