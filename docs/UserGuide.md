@@ -376,7 +376,7 @@ This section contains commands for managing tasks.
 
 ### Adding a task : `addtask`
 
-Adds a task with the given description and optional deadline to your task list.
+Adds a task with the given description and an optional deadline to your task list.
 
 Format: `addtask t/TASK_DESC [d/DEADLINE]`
 
